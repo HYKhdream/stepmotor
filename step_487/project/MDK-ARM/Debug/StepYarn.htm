@@ -1,0 +1,3035 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Debug\StepYarn.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Debug\StepYarn.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Wed Mar 04 16:56:35 2020
+<BR><P>
+<H3>Maximum Stack Usage =        172 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+TIM3_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">MemManage_Handler</a><BR>
+ <LI><a href="#[4]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">BusFault_Handler</a><BR>
+ <LI><a href="#[5]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">UsageFault_Handler</a><BR>
+ <LI><a href="#[1c]">ADC1_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1c]">ADC1_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1c]">ADC1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[4]">BusFault_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1e]">CAN1_RX0_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1f]">CAN1_RX1_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[20]">CAN1_SCE_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1d]">CAN1_TX_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[34]">CEC_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[44]">COMP_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[15]">DMA1_Channel1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[16]">DMA1_Channel2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[17]">DMA1_Channel3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[18]">DMA1_Channel4_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[19]">DMA1_Channel5_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1a]">DMA1_Channel6_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1b]">DMA1_Channel7_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3c]">DMA2_Channel1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3d]">DMA2_Channel2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3e]">DMA2_Channel3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3f]">DMA2_Channel4_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[40]">DMA2_Channel5_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[7]">DebugMon_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[10]">EXTI0_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[32]">EXTI15_10_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[11]">EXTI1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[12]">EXTI2_TS_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[13]">EXTI3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[14]">EXTI4_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[21]">EXTI9_5_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[e]">FLASH_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[49]">FPU_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2a]">I2C1_ER_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[29]">I2C1_EV_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2c]">I2C2_ER_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2b]">I2C2_EV_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3]">MemManage_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[b]">PVD_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[8]">PendSV_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[f]">RCC_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[33]">RTC_Alarm_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[d]">RTC_WKUP_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[41]">SDADC1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[42]">SDADC2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[43]">SDADC3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2d]">SPI1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2e]">SPI2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[39]">SPI3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[6]">SVC_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[9]">SysTick_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[4b]">SystemInit</a> from system_stm32f37x.o(.text) referenced from startup_stm32f37x.o(.text)
+ <LI><a href="#[c]">TAMPER_STAMP_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[35]">TIM12_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[36]">TIM13_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[37]">TIM14_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[22]">TIM15_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[23]">TIM16_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[24]">TIM17_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[25]">TIM18_DAC2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[48]">TIM19_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[26]">TIM2_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[27]">TIM3_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[28]">TIM4_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[38]">TIM5_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3a]">TIM6_DAC1_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[3b]">TIM7_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[2f]">USART1_IRQHandler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[30]">USART2_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[31]">USART3_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[47]">USBWakeUp_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[45]">USB_HP_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[46]">USB_LP_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[5]">UsageFault_Handler</a> from stm32f37x_it.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[a]">WWDG_IRQHandler</a> from startup_stm32f37x.o(.text) referenced from startup_stm32f37x.o(RESET)
+ <LI><a href="#[4c]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f37x.o(.text)
+ <LI><a href="#[4a]">main</a> from main.o(.text) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[4c]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(.text)
+</UL>
+<P><STRONG><a name="[160]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[4d]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[15f]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[161]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[162]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[163]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[164]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[165]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[166]"></a>Shell_Step</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(.text), UNUSED)
+
+<P><STRONG><a name="[4f]"></a>Exec_DCT_MOtor_JustRun</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Exec_DCT_MOtor_JustRun &rArr; StepMotor_exec_justrun &rArr; arch_StepMotor_Start &rArr; arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[51]"></a>Exec_DCT_isr</STRONG> (Thumb, 250 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = Exec_DCT_isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[56]"></a>Exec_GET_DCT_sts_old</STRONG> (Thumb, 28 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_GET_DCT_sts_old &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[58]"></a>Exec_GET_DCT_sts</STRONG> (Thumb, 58 bytes, Stack size 32 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Exec_GET_DCT_sts &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[59]"></a>Exec_SET_DCT_sts</STRONG> (Thumb, 208 bytes, Stack size 32 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Exec_SET_DCT_sts
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R_EX
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5b]"></a>Exec_GET_Moto_Zero_Width</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_GET_Moto_Zero_Width &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5c]"></a>Exec_SET_Moto_Zero_Width</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Exec_SET_Moto_Zero_Width
+</UL>
+<BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5d]"></a>Exec_Reset_step_moto_one</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = Exec_Reset_step_moto_one &rArr; StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5e]"></a>Exec_Reset_step_moto_all</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = Exec_Reset_step_moto_all &rArr; StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5f]"></a>Exec_GET_version_EX</STRONG> (Thumb, 68 bytes, Stack size 32 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Exec_GET_version_EX &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_board_bootver
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[78]"></a>Exec_Set_POS_Yarn</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[61]"></a>Exec_Get_step_sign</STRONG> (Thumb, 52 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_Get_step_sign &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_step_sign_
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_is_CX_5N_board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[64]"></a>Exec_Send_Sign_width</STRONG> (Thumb, 24 bytes, Stack size 24 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+
+<P><STRONG><a name="[65]"></a>Massage_Send_EMF_REBACK</STRONG> (Thumb, 18 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Massage_Send_EMF_REBACK &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_Motor_Get_runing_sts
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_Motor_Get_pos
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Set_Test_mode_enable
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+</UL>
+
+<P><STRONG><a name="[66]"></a>Exec_Set_Test_mode_enable</STRONG> (Thumb, 102 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Exec_Set_Test_mode_enable &rArr; Massage_Send_EMF_REBACK &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[67]"></a>Exec_GET_DC_V</STRONG> (Thumb, 96 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_GET_DC_V &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_dip_input
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[69]"></a>Exec_GET_version</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_GET_version &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_board_bootver
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[6a]"></a>Exec_Get_Board_Type_ID</STRONG> (Thumb, 42 bytes, Stack size 24 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Exec_Get_Board_Type_ID &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[6b]"></a>Command_loop</STRONG> (Thumb, 742 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = Command_loop &rArr; StepMotor_exec_with_check_mask &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_step_motro_en
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Enable
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Disable
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Upgrade_Start
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_test_speed
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_set_Remap
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_set_HZ_ex_start_a
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_set_HZ_ex_max
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_with_check_mask
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Sign
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Position
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Sign
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Position
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Resolution
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Direction
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Active_single
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Active
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Speed_HZ_ex
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Speed
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Reset_Speed
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Position
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current_EX
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Step_done_report
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LostSteps_alarm
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Pop
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Triangle_step
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_Motor_Get_runing_sts
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_Motor_Get_pos
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Clear
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_Board_Type_ID
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DC_V
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Set_Test_mode_enable
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_step_sign
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Set_POS_Yarn
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version_EX
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Reset_step_moto_all
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Reset_step_moto_one
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_SET_Moto_Zero_Width
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_Moto_Zero_Width
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_SET_DCT_sts
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DCT_sts
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DCT_sts_old
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_isr
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_MOtor_JustRun
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8e]"></a>reg_init</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_init
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Init
+</UL>
+
+<P><STRONG><a name="[167]"></a>Test_Debug</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text), UNUSED)
+
+<P><STRONG><a name="[168]"></a>Init_Shell</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text), UNUSED)
+
+<P><STRONG><a name="[92]"></a>Delay</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Upgrade_Start
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_other
+</UL>
+
+<P><STRONG><a name="[91]"></a>Init_other</STRONG> (Thumb, 18 bytes, Stack size 4 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = Init_other &rArr; Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[93]"></a>Other_loop</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = Other_loop &rArr; arch_adc_test &rArr; alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_zero_status
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_adc_test
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[169]"></a>Shell_loop</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(.text), UNUSED)
+
+<P><STRONG><a name="[96]"></a>Alert_loop</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Poll
+</UL>
+
+<P><STRONG><a name="[4a]"></a>main</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = main &rArr; Command_loop &rArr; StepMotor_exec_with_check_mask &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_parameter
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_output
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware_first
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_core
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Poll
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Other_loop
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_other
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[9d]"></a>TimingDelay_Decrement</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = TimingDelay_Decrement &rArr; StepMotor_timer &rArr; check_triangle_sts_CX_YJ &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_run_led_toggle
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>SysTick_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SysTick_Handler &rArr; TimingDelay_Decrement &rArr; StepMotor_timer &rArr; check_triangle_sts_CX_YJ &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimingDelay_Decrement
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>CAN1_RX0_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = CAN1_RX0_IRQHandler &rArr; hook_CAN_isr &rArr; Massage_Push &rArr; alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hook_CAN_isr
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>USART1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f37x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>TIM3_IRQHandler</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = TIM3_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_test
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>TIM2_IRQHandler</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = TIM2_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>TIM12_IRQHandler</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = TIM12_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>TIM15_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM15_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>TIM19_IRQHandler</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = TIM19_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>TIM13_IRQHandler</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = TIM13_IRQHandler &rArr; step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>TIM14_IRQHandler</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM14_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare1
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetCapture1
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>TIM16_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM16_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>TIM17_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, stm32f37x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM17_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetITStatus
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ClearITPendingBit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>SystemInit</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, system_stm32f37x.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SystemInit &rArr; SetSysClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(.text)
+</UL>
+<P><STRONG><a name="[16a]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 92 bytes, Stack size 12 bytes, system_stm32f37x.o(.text), UNUSED)
+
+<P><STRONG><a name="[a8]"></a>ADC_config</STRONG> (Thumb, 284 bytes, Stack size 96 bytes, arch_adc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = ADC_config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYSCFG_VBATMonitoringCmd
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphClockCmd
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_ADCCLKConfig
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Init
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_DeInit
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_Cmd
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_TempSensorVrefintCmd
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_StructInit
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_StartCalibration
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ResetCalibration
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_RegularChannelConfig
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Init
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetResetCalibrationStatus
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetCalibrationStatus
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DMACmd
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[95]"></a>arch_adc_test</STRONG> (Thumb, 142 bytes, Stack size 32 bytes, arch_adc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = arch_adc_test &rArr; alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_GetFlagStatus
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_ClearFlag
+</UL>
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Other_loop
+</UL>
+
+<P><STRONG><a name="[bf]"></a>GPIO_config</STRONG> (Thumb, 296 bytes, Stack size 32 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = GPIO_config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphClockCmd
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware_first
+</UL>
+
+<P><STRONG><a name="[c0]"></a>Set_stepmotor_sub</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Set_stepmotor_sub
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Resolution
+</UL>
+
+<P><STRONG><a name="[c1]"></a>Triangle_is_left_Sign_ex</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Triangle_is_left_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[c3]"></a>Triangle_is_left_Sign</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Triangle_is_left_Sign &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[c4]"></a>Triangle_is_right_Sign_ex</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[c5]"></a>Triangle_is_right_Sign</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, arch_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Triangle_is_right_Sign &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[c6]"></a>CAN_Config</STRONG> (Thumb, 236 bytes, Stack size 72 bytes, arch_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = CAN_Config &rArr; CAN_FilterInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Init
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinAFConfig
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_StructInit
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Init
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_ITConfig
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_FilterInit
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_DeInit
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphClockCmd
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[57]"></a>arch_SendMassage</STRONG> (Thumb, 192 bytes, Stack size 40 bytes, arch_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Transmit
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_is_CX_5N_board
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_board_id
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_Board_Type_ID
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DC_V
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Send_Sign_width
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_step_sign
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version_EX
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_Moto_Zero_Width
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DCT_sts
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DCT_sts_old
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_4Word_log
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_4Word
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_Alert
+</UL>
+
+<P><STRONG><a name="[a0]"></a>hook_CAN_isr</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, arch_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = hook_CAN_isr &rArr; Massage_Push &rArr; alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Push
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Receive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[dd]"></a>TIMER_Config</STRONG> (Thumb, 62 bytes, Stack size 56 bytes, arch_time.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = TIMER_Config &rArr; TIMS_Config &rArr; TIM_OC4Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[df]"></a>TIMER_SetCompare1</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, arch_time.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIMER_SetCompare1
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetCounter
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare1
+</UL>
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+
+<P><STRONG><a name="[e2]"></a>TIMER_SetCompare2</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, arch_time.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIMER_SetCompare2
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare2
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetCounter
+</UL>
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+
+<P><STRONG><a name="[e4]"></a>TIMER_SetCompare3</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, arch_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetCounter
+</UL>
+
+<P><STRONG><a name="[e6]"></a>TIMER_SetCompare4</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, arch_time.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_GetCounter
+</UL>
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+
+<P><STRONG><a name="[e8]"></a>DAC12_Config</STRONG> (Thumb, 108 bytes, Stack size 32 bytes, arch_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = DAC12_Config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Cmd
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphClockCmd
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[eb]"></a>DAC_Config</STRONG> (Thumb, 86 bytes, Stack size 32 bytes, arch_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = DAC_Config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Cmd
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphClockCmd
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[ec]"></a>DAC_SetVoltage</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, arch_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DAC_SetVoltage &rArr; DAC_SetChannel1Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SoftwareTriggerCmd
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetChannel1Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current_EX
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current
+</UL>
+
+<P><STRONG><a name="[ef]"></a>DAC2_SetVoltage</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, arch_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = DAC2_SetVoltage &rArr; DAC_SetChannel2Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SoftwareTriggerCmd
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetChannel2Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current_EX
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current
+</UL>
+
+<P><STRONG><a name="[f2]"></a>ReBoot</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Upgrade_Start
+</UL>
+
+<P><STRONG><a name="[8b]"></a>Upgrade_Start</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = Upgrade_Start &rArr; EE_Write &rArr; EE_WriteVariable &rArr; EE_PageTransfer &rArr; EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Write
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ReBoot
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[f3]"></a>RCC_Configuration</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = RCC_Configuration &rArr; RCC_WaitForHSEStartUp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_WaitForHSEStartUp
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_SYSCLKConfig
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PLLConfig
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PLLCmd
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PCLK2Config
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PCLK1Config
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_HSEConfig
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_HCLKConfig
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetSYSCLKSource
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetFlagStatus
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_DeInit
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_SetLatency
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_PrefetchBufferCmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_core
+</UL>
+
+<P><STRONG><a name="[16b]"></a>arch_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, arch_board.o(.text), UNUSED)
+
+<P><STRONG><a name="[68]"></a>arch_dip_input</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = arch_dip_input
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware_first
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DC_V
+</UL>
+
+<P><STRONG><a name="[c2]"></a>arch_input_check</STRONG> (Thumb, 128 bytes, Stack size 16 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_stepMotor_inout_sts
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign_ex
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign_ex
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_zero_status
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_get_step_sign_
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Sign
+</UL>
+
+<P><STRONG><a name="[94]"></a>arch_get_zero_status</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = arch_get_zero_status &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+</UL>
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Other_loop
+</UL>
+
+<P><STRONG><a name="[102]"></a>arch_input_boardid</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, arch_board.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputData
+</UL>
+
+<P><STRONG><a name="[9e]"></a>arch_run_led_toggle</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimingDelay_Decrement
+</UL>
+
+<P><STRONG><a name="[16c]"></a>arch_step_motro_reset</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, arch_board.o(.text), UNUSED)
+
+<P><STRONG><a name="[88]"></a>arch_step_motro_en</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Enable
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Disable
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[63]"></a>arch_get_step_sign_</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = arch_get_step_sign_ &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_step_sign
+</UL>
+
+<P><STRONG><a name="[103]"></a>arch_stepMotor_inout_sts</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, arch_board.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+</UL>
+
+<P><STRONG><a name="[75]"></a>Get_doard_type_ex</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign_ex
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign_ex
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Sign
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Triangle_step
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[53]"></a>Is_Yarn_Board</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Resolution
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Speed_HZ_ex
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Speed
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Reset_Speed
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_Board_Type_ID
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_isr
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts_CX_YJ
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_map_init
+</UL>
+
+<P><STRONG><a name="[104]"></a>arch_StepMotor_Zero_EX</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = arch_StepMotor_Zero_EX &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[105]"></a>arch_StepMotor_Zero</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts_CX_YJ
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[106]"></a>arch_StepMotor_Half</STRONG> (Thumb, 138 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = arch_StepMotor_Half
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Init
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[107]"></a>arch_StepMotor_Dir</STRONG> (Thumb, 142 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = arch_StepMotor_Dir
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Init
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[11e]"></a>arch_check_isE487</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Resolution
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current_EX
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Motor_Current
+</UL>
+
+<P><STRONG><a name="[108]"></a>arch_StepMotor_Pulse</STRONG> (Thumb, 104 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = arch_StepMotor_Pulse
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Init
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[109]"></a>arch_StepMotor_SetCompare</STRONG> (Thumb, 114 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare4
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare2
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare1
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Active
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Start
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_test_speed
+</UL>
+
+<P><STRONG><a name="[12a]"></a>arch_StepMotor_Set_Speed</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[10a]"></a>arch_StepMotor_Start</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arch_StepMotor_Start &rArr; arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[10b]"></a>arch_StepMotor_Active</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arch_StepMotor_Active &rArr; arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[10c]"></a>arch_StepMotor_Stop</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[10d]"></a>arch_StepMotor_Init</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = arch_StepMotor_Init &rArr; arch_StepMotor_Pulse
+</UL>
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Pulse
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+</UL>
+<BR>[Called By]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Enable
+</UL>
+
+<P><STRONG><a name="[6d]"></a>arch_StepMotor_Enable</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = arch_StepMotor_Enable &rArr; arch_StepMotor_Init &rArr; arch_StepMotor_Pulse
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Init
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_step_motro_en
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[6e]"></a>arch_StepMotor_Disable</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_step_motro_en
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[52]"></a>Get_board_id</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version_EX
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Reset_step_moto_one
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_SET_Moto_Zero_Width
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_Moto_Zero_Width
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_SET_DCT_sts
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_DCT_sts
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_isr
+</UL>
+
+<P><STRONG><a name="[16d]"></a>Get_doard_type</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, arch_board.o(.text), UNUSED)
+
+<P><STRONG><a name="[60]"></a>arch_get_board_bootver</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_GET_version_EX
+</UL>
+
+<P><STRONG><a name="[98]"></a>Init_core</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Init_core &rArr; RCC_Configuration &rArr; RCC_WaitForHSEStartUp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetVectorTable
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PriorityGroupConfig
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[99]"></a>Init_hardware_first</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = Init_hardware_first &rArr; GPIO_config &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputData
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_config
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_dip_input
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9a]"></a>Init_hardware</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = Init_hardware &rArr; TIMER_Config &rArr; TIMS_Config &rArr; TIM_OC4Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_Unlock
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Config
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9b]"></a>Init_parameter</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = Init_parameter &rArr; StepMotor_Init &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_init
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[9c]"></a>Init_output</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, arch_board.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Init_output &rArr; StepMotor_init_output &rArr; arch_StepMotor_Init &rArr; arch_StepMotor_Pulse
+</UL>
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_init_output
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8f]"></a>alert_init</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, alert.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_parameter
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_init
+</UL>
+
+<P><STRONG><a name="[114]"></a>alert_count</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, alert.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_find
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_pop
+</UL>
+
+<P><STRONG><a name="[be]"></a>alert_push</STRONG> (Thumb, 72 bytes, Stack size 12 bytes, alert.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_count
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Push
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_adc_test
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts_CX_YJ
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[115]"></a>alert_pop</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, alert.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = alert_pop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_count
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Poll
+</UL>
+
+<P><STRONG><a name="[116]"></a>alert_find</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, alert.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_count
+</UL>
+
+<P><STRONG><a name="[117]"></a>alert_delete</STRONG> (Thumb, 40 bytes, Stack size 12 bytes, alert.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = alert_delete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Poll
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Clear
+</UL>
+
+<P><STRONG><a name="[8d]"></a>Alert_Clear</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, alert.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = Alert_Clear &rArr; alert_delete
+</UL>
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_delete
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[97]"></a>Alert_Poll</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, alert.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Alert_Poll &rArr; Massage_Send_Alert &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_Alert
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_delete
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_pop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_loop
+</UL>
+
+<P><STRONG><a name="[16e]"></a>alert_time_poll</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, alert.o(.text), UNUSED)
+
+<P><STRONG><a name="[119]"></a>alert_cpu_fatal</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, alert.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_Alert
+</UL>
+
+<P><STRONG><a name="[8c]"></a>Exec_DCT_Motor_Get_runing_sts</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Exec_DCT_Motor_Get_runing_sts &rArr; Massage_Send_EMF_REBACK &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[80]"></a>Exec_DCT_Motor_Get_pos</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = Exec_DCT_Motor_Get_pos &rArr; Massage_Send_EMF_REBACK &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[11b]"></a>StepMotor_map_init</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = StepMotor_map_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+</UL>
+
+<P><STRONG><a name="[11d]"></a>Get_motor_ID_with_stepno</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Sign
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Position
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Sign
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Position
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Setup_Direction
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Triangle_step
+</UL>
+
+<P><STRONG><a name="[129]"></a>Get_stepno_with_motorID</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts_CX_YJ
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[11c]"></a>is_triangle</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = is_triangle
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Init
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_with_check_mask
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Sign
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Position
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Sign
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Position
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[112]"></a>StepMotor_Init</STRONG> (Thumb, 498 bytes, Stack size 40 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = StepMotor_Init &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_map_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_parameter
+</UL>
+
+<P><STRONG><a name="[76]"></a>StepMotor_Setup_Active</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[7e]"></a>StepMotor_Setup_Active_single</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = StepMotor_Setup_Active_single
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[86]"></a>StepMotor_set_HZ_ex_start_a</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[87]"></a>StepMotor_set_HZ_ex_max</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[85]"></a>StepMotor_set_Remap</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[84]"></a>StepMotor_Setup_Direction</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = StepMotor_Setup_Direction
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[77]"></a>StepMotor_Setup_Resolution</STRONG> (Thumb, 130 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Setup_Resolution &rArr; Set_stepmotor_sub
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_check_isE487
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_stepmotor_sub
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[5a]"></a>stepspeed_Q2R_EX</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_SET_DCT_sts
+</UL>
+
+<P><STRONG><a name="[7c]"></a>Set_LostSteps_alarm</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[7d]"></a>Set_Step_done_report</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[16f]"></a>Stepmotor_timer_20us</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[83]"></a>StepMotor_Set_Speed_HZ_ex</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = StepMotor_Set_Speed_HZ_ex
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[7a]"></a>StepMotor_Set_Reset_Speed</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Set_Reset_Speed
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_R2Q
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[7b]"></a>StepMotor_Set_Speed</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = StepMotor_Set_Speed
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_R2Q
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[120]"></a>StepMotor_Get_Position</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = StepMotor_Get_Position
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_R2Q
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Get_Position
+</UL>
+
+<P><STRONG><a name="[170]"></a>StepMotor_Get_Unfinished_Posidx</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[122]"></a>StepMotor_Get_Busyidx</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Get_Busy
+</UL>
+
+<P><STRONG><a name="[121]"></a>StepMotor_Get_Busy</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Get_Busyidx
+</UL>
+
+<P><STRONG><a name="[81]"></a>StepMotor_Set_Position</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = StepMotor_Set_Position
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Sign
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Set_Position
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[89]"></a>StepMotor_test_speed</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = StepMotor_test_speed &rArr; arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_SetCompare
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[50]"></a>StepMotor_exec_justrun</STRONG> (Thumb, 254 bytes, Stack size 32 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = StepMotor_exec_justrun &rArr; arch_StepMotor_Start &rArr; arch_StepMotor_SetCompare &rArr; TIMER_SetCompare4
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Start
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_MOtor_JustRun
+</UL>
+
+<P><STRONG><a name="[54]"></a>StepMotor_Reset</STRONG> (Thumb, 634 bytes, Stack size 40 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Start
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign_ex
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign_ex
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Triangle_step
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Reset_step_moto_all
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Reset_step_moto_one
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_isr
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_ResetAll
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset_RightMotor
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset_LeftMotor
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_All_Reset
+</UL>
+
+<P><STRONG><a name="[55]"></a>StepMotor_exec</STRONG> (Thumb, 592 bytes, Stack size 40 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Start
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_4Word
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_with_check_mask
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_isr
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+</UL>
+
+<P><STRONG><a name="[7f]"></a>StepMotor_exec_with_check_mask</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 140<LI>Call Chain = StepMotor_exec_with_check_mask &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[124]"></a>StepMotor_All_Reset</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+</UL>
+
+<P><STRONG><a name="[125]"></a>StepMotor_Reset_LeftMotor</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+</UL>
+
+<P><STRONG><a name="[126]"></a>StepMotor_Reset_RightMotor</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+</UL>
+
+<P><STRONG><a name="[a3]"></a>step_test</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = step_test
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[127]"></a>StepMotor_Triangle_exec</STRONG> (Thumb, 538 bytes, Stack size 32 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = StepMotor_Triangle_exec &rArr; StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Start
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Triangle_step
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[128]"></a>StepMotor_Triangle_Isr</STRONG> (Thumb, 1578 bytes, Stack size 40 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = StepMotor_Triangle_Isr &rArr; StepMotor_Triangle_exec &rArr; StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Active
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Set_Speed
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Pulse
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign_ex
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign_ex
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_4Word
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_stepno_with_motorID
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_R2Q
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+</UL>
+
+<P><STRONG><a name="[12b]"></a>StepMotor_Isr</STRONG> (Thumb, 1466 bytes, Stack size 40 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Active
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Set_Speed
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Pulse
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_EMF_REBACK
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_isr
+</UL>
+
+<P><STRONG><a name="[a4]"></a>step_isr</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 164<LI>Call Chain = step_isr &rArr; StepMotor_Isr &rArr; StepMotor_exec &rArr; Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM13_IRQHandler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM19_IRQHandler
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM12_IRQHandler
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM2_IRQHandler
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[12c]"></a>check_triangle_sts_CX_YJ</STRONG> (Thumb, 188 bytes, Stack size 32 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = check_triangle_sts_CX_YJ &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_stepno_with_motorID
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+</UL>
+
+<P><STRONG><a name="[12d]"></a>check_triangle_sts</STRONG> (Thumb, 544 bytes, Stack size 32 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero_EX
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_stepMotor_inout_sts
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_right_Sign_ex
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Triangle_is_left_Sign_ex
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_stepno_with_motorID
+</UL>
+
+<P><STRONG><a name="[74]"></a>StepMotor_Triangle_Set_Sign</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Triangle_Set_Sign &rArr; StepMotor_Set_Position
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Position
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[71]"></a>StepMotor_Triangle_Get_Sign</STRONG> (Thumb, 102 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = StepMotor_Triangle_Get_Sign &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[73]"></a>StepMotor_Triangle_Set_Position</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Triangle_Set_Position &rArr; StepMotor_Set_Position
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Position
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[70]"></a>StepMotor_Triangle_Get_Position</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = StepMotor_Triangle_Get_Position &rArr; StepMotor_Get_Position
+</UL>
+<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Get_Position
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_triangle
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[6f]"></a>Exec_Triangle_step</STRONG> (Thumb, 198 bytes, Stack size 24 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = Exec_Triangle_step &rArr; StepMotor_Triangle_exec &rArr; StepMotor_Reset &rArr; Triangle_is_right_Sign_ex &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_doard_type_ex
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_motor_ID_with_stepno
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[12e]"></a>StepMotor_Triangle_ResetAll</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, step.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+</UL>
+
+<P><STRONG><a name="[171]"></a>SSI_Check</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[172]"></a>StepMotor_Poll</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[9f]"></a>StepMotor_timer</STRONG> (Thumb, 238 bytes, Stack size 24 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = StepMotor_timer &rArr; check_triangle_sts_CX_YJ &rArr; arch_StepMotor_Zero &rArr; arch_input_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Zero
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_triangle_sts_CX_YJ
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_stepno_with_motorID
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TimingDelay_Decrement
+</UL>
+
+<P><STRONG><a name="[173]"></a>StepMotor_Feet_Setup</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[174]"></a>StepMotor_Feet_exec</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[175]"></a>StepMotor_Feet_Work_Sign</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[176]"></a>StepMotor_Sinker_Set_Num</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[177]"></a>is_sinker</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text), UNUSED)
+
+<P><STRONG><a name="[113]"></a>StepMotor_init_output</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = StepMotor_init_output &rArr; arch_StepMotor_Init &rArr; arch_StepMotor_Pulse
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Init
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_check_isE487
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC2_SetVoltage
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetVoltage
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_stepmotor_sub
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Is_Yarn_Board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_output
+</UL>
+
+<P><STRONG><a name="[79]"></a>StepMotor_Set_Motor_Current</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Set_Motor_Current &rArr; DAC2_SetVoltage &rArr; DAC_SetChannel2Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_check_isE487
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC2_SetVoltage
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetVoltage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[82]"></a>StepMotor_Set_Motor_Current_EX</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, step.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = StepMotor_Set_Motor_Current_EX &rArr; DAC2_SetVoltage &rArr; DAC_SetChannel2Data
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_check_isE487
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC2_SetVoltage
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetVoltage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[62]"></a>Step_is_CX_5N_board</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_Get_step_sign
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Send_Alert
+</UL>
+
+<P><STRONG><a name="[90]"></a>Massage_Init</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, massage.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_parameter
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_init
+</UL>
+
+<P><STRONG><a name="[12f]"></a>Massage_Count</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, massage.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Push
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Pop
+</UL>
+
+<P><STRONG><a name="[d1]"></a>Massage_Push</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, massage.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = Massage_Push &rArr; alert_push
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_push
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Count
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hook_CAN_isr
+</UL>
+
+<P><STRONG><a name="[6c]"></a>Massage_Pop</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, massage.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = Massage_Pop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Massage_Count
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[72]"></a>Massage_Send</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, massage.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = Massage_Send &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[123]"></a>Massage_Send_4Word</STRONG> (Thumb, 18 bytes, Stack size 24 bytes, massage.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Massage_Send_4Word &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+</UL>
+
+<P><STRONG><a name="[130]"></a>Massage_Send_4Word_log</STRONG> (Thumb, 18 bytes, Stack size 24 bytes, massage.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+
+<P><STRONG><a name="[118]"></a>Massage_Send_Alert</STRONG> (Thumb, 42 bytes, Stack size 24 bytes, massage.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Massage_Send_Alert &rArr; arch_SendMassage &rArr; CAN_Transmit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_is_CX_5N_board
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Alert_Poll
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;alert_cpu_fatal
+</UL>
+
+<P><STRONG><a name="[134]"></a>EE_ReadVariable</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = EE_ReadVariable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_FindValidPage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Read
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+</UL>
+
+<P><STRONG><a name="[111]"></a>EE_Init</STRONG> (Thumb, 298 bytes, Stack size 32 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = EE_Init &rArr; EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_ReadVariable
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Format
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_VerifyPageFullWriteVariable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[137]"></a>EE_WriteVariable</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = EE_WriteVariable &rArr; EE_PageTransfer &rArr; EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_VerifyPageFullWriteVariable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Write
+</UL>
+
+<P><STRONG><a name="[139]"></a>EE_Read</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, eeprom.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_ReadVariable
+</UL>
+
+<P><STRONG><a name="[f1]"></a>EE_Write</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = EE_Write &rArr; EE_WriteVariable &rArr; EE_PageTransfer &rArr; EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_WriteVariable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Upgrade_Start
+</UL>
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>ADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>CEC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>COMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>DMA2_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>DMA2_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>DMA2_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>DMA2_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>DMA2_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>EXTI2_TS_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>FPU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>RTC_Alarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>RTC_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>SDADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>SDADC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>SDADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>TAMPER_STAMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>TIM18_DAC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>TIM5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>TIM6_DAC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>TIM7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>USB_HP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>USB_LP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f37x.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f37x.o(RESET)
+</UL>
+<P><STRONG><a name="[b0]"></a>ADC_DeInit</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_DeInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b3]"></a>ADC_Init</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b2]"></a>ADC_StructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b7]"></a>ADC_Cmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[ba]"></a>ADC_StartCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b8]"></a>ADC_ResetCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[178]"></a>ADC_AnalogWatchdogCmd</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[179]"></a>ADC_AnalogWatchdogThresholdsConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[17a]"></a>ADC_AnalogWatchdogSingleChannelConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[b5]"></a>ADC_TempSensorVrefintCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b4]"></a>ADC_RegularChannelConfig</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ADC_RegularChannelConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[17b]"></a>ADC_ExternalTrigConvCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[17c]"></a>ADC_SoftwareStartConv</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[17d]"></a>ADC_GetSoftwareStartConvStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[17e]"></a>ADC_ContinuousModeCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[17f]"></a>ADC_DiscModeChannelCountConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[180]"></a>ADC_DiscModeCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[181]"></a>ADC_GetConversionValue</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[b1]"></a>ADC_DMACmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[182]"></a>ADC_InjectedChannelConfig</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[183]"></a>ADC_InjectedSequencerLengthConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[184]"></a>ADC_SetInjectedOffset</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[185]"></a>ADC_ExternalTrigInjectedConvConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[186]"></a>ADC_ExternalTrigInjectedConvCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[187]"></a>ADC_SoftwareStartInjectedConvCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[188]"></a>ADC_GetSoftwareStartInjectedConvCmdStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[189]"></a>ADC_AutoInjectedConvCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18a]"></a>ADC_InjectedDiscModeCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18b]"></a>ADC_GetInjectedConversionValue</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18c]"></a>ADC_ITConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18d]"></a>ADC_GetFlagStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18e]"></a>ADC_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[18f]"></a>ADC_GetITStatus</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[190]"></a>ADC_ClearITPendingBit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb]"></a>ADC_GetCalibrationStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[b9]"></a>ADC_GetResetCalibrationStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_adc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[ca]"></a>CAN_DeInit</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = CAN_DeInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[cc]"></a>CAN_Init</STRONG> (Thumb, 232 bytes, Stack size 8 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = CAN_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[cd]"></a>CAN_FilterInit</STRONG> (Thumb, 194 bytes, Stack size 20 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = CAN_FilterInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[cb]"></a>CAN_StructInit</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[191]"></a>CAN_SlaveStartBank</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[192]"></a>CAN_DBGFreeze</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[193]"></a>CAN_TTComModeCmd</STRONG> (Thumb, 90 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[cf]"></a>CAN_Transmit</STRONG> (Thumb, 166 bytes, Stack size 12 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = CAN_Transmit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_SendMassage
+</UL>
+
+<P><STRONG><a name="[194]"></a>CAN_TransmitStatus</STRONG> (Thumb, 88 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[195]"></a>CAN_CancelTransmit</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[d0]"></a>CAN_Receive</STRONG> (Thumb, 176 bytes, Stack size 8 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = CAN_Receive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hook_CAN_isr
+</UL>
+
+<P><STRONG><a name="[196]"></a>CAN_FIFORelease</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[197]"></a>CAN_MessagePending</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[198]"></a>CAN_OperatingModeRequest</STRONG> (Thumb, 140 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[199]"></a>CAN_Sleep</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[19a]"></a>CAN_WakeUp</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[19b]"></a>CAN_GetLastErrorCode</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[19c]"></a>CAN_GetReceiveErrorCounter</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[19d]"></a>CAN_GetLSBTransmitErrorCounter</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[ce]"></a>CAN_ITConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_can.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[19e]"></a>CAN_GetFlagStatus</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[19f]"></a>CAN_ClearFlag</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[13c]"></a>CAN_GetITStatus</STRONG> (Thumb, 162 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CheckITStatus
+</UL>
+
+<P><STRONG><a name="[1a0]"></a>CAN_ClearITPendingBit</STRONG> (Thumb, 116 bytes, Stack size 12 bytes, stm32f37x_can.o(.text), UNUSED)
+
+<P><STRONG><a name="[13e]"></a>DAC_DeInit</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f37x_dac.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[e9]"></a>DAC_Init</STRONG> (Thumb, 34 bytes, Stack size 12 bytes, stm32f37x_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DAC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+</UL>
+
+<P><STRONG><a name="[1a1]"></a>DAC_StructInit</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[ea]"></a>DAC_Cmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+</UL>
+
+<P><STRONG><a name="[ee]"></a>DAC_SoftwareTriggerCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC2_SetVoltage
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetVoltage
+</UL>
+
+<P><STRONG><a name="[1a2]"></a>DAC_DualSoftwareTriggerCmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a3]"></a>DAC_WaveGenerationCmd</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[ed]"></a>DAC_SetChannel1Data</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, stm32f37x_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DAC_SetChannel1Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetVoltage
+</UL>
+
+<P><STRONG><a name="[f0]"></a>DAC_SetChannel2Data</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, stm32f37x_dac.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DAC_SetChannel2Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC2_SetVoltage
+</UL>
+
+<P><STRONG><a name="[1a4]"></a>DAC_SetDualChannelData</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a5]"></a>DAC_GetDataOutputValue</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a6]"></a>DAC_DMACmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a7]"></a>DAC_ITConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a8]"></a>DAC_GetFlagStatus</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1a9]"></a>DAC_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1aa]"></a>DAC_GetITStatus</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ab]"></a>DAC_ClearITPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_dac.o(.text), UNUSED)
+
+<P><STRONG><a name="[ac]"></a>DMA_DeInit</STRONG> (Thumb, 218 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[ad]"></a>DMA_Init</STRONG> (Thumb, 58 bytes, Stack size 12 bytes, stm32f37x_dma.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DMA_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[1ac]"></a>DMA_StructInit</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[ae]"></a>DMA_Cmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[1ad]"></a>DMA_SetCurrDataCounter</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ae]"></a>DMA_GetCurrDataCounter</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[1af]"></a>DMA_ITConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[bc]"></a>DMA_GetFlagStatus</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_adc_test
+</UL>
+
+<P><STRONG><a name="[bd]"></a>DMA_ClearFlag</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_adc_test
+</UL>
+
+<P><STRONG><a name="[1b0]"></a>DMA_GetITStatus</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[1b1]"></a>DMA_ClearITPendingBit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_dma.o(.text), UNUSED)
+
+<P><STRONG><a name="[f8]"></a>FLASH_SetLatency</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[1b2]"></a>FLASH_HalfCycleAccessCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[f7]"></a>FLASH_PrefetchBufferCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[110]"></a>FLASH_Unlock</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware
+</UL>
+
+<P><STRONG><a name="[1b3]"></a>FLASH_Lock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[140]"></a>FLASH_GetStatus</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[13f]"></a>FLASH_WaitForLastOperation</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_GetStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_WriteUser
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_SRAMParityConfig
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_VDD_SD12Config
+<LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_VDDAConfig
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_BOOTConfig
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_UserConfig
+<LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_RDPConfig
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_EnableWRP
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_ProgramData
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_Erase
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramWord
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_EraseAllPages
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+</UL>
+
+<P><STRONG><a name="[135]"></a>FLASH_ErasePage</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = FLASH_ErasePage &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Format
+</UL>
+
+<P><STRONG><a name="[141]"></a>FLASH_EraseAllPages</STRONG> (Thumb, 50 bytes, Stack size 12 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[142]"></a>FLASH_ProgramWord</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[133]"></a>FLASH_ProgramHalfWord</STRONG> (Thumb, 48 bytes, Stack size 20 bytes, stm32f37x_flash.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Format
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_VerifyPageFullWriteVariable
+</UL>
+
+<P><STRONG><a name="[1b4]"></a>FLASH_OB_Unlock</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1b5]"></a>FLASH_OB_Lock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1b6]"></a>FLASH_OB_Launch</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[144]"></a>FLASH_OB_GetRDP</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_Erase
+</UL>
+
+<P><STRONG><a name="[143]"></a>FLASH_OB_Erase</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_OB_GetRDP
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[145]"></a>FLASH_OB_ProgramData</STRONG> (Thumb, 52 bytes, Stack size 20 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[146]"></a>FLASH_OB_EnableWRP</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[147]"></a>FLASH_OB_RDPConfig</STRONG> (Thumb, 98 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[148]"></a>FLASH_OB_UserConfig</STRONG> (Thumb, 66 bytes, Stack size 20 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[149]"></a>FLASH_OB_BOOTConfig</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[14a]"></a>FLASH_OB_VDDAConfig</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[14b]"></a>FLASH_OB_VDD_SD12Config</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[14c]"></a>FLASH_OB_SRAMParityConfig</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[14d]"></a>FLASH_OB_WriteUser</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, stm32f37x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[1b7]"></a>FLASH_OB_GetUser</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1b8]"></a>FLASH_OB_GetWRP</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1b9]"></a>FLASH_ITConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ba]"></a>FLASH_GetFlagStatus</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[1bb]"></a>FLASH_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[14e]"></a>GPIO_DeInit</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, stm32f37x_gpio.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_AHBPeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[ab]"></a>GPIO_Init</STRONG> (Thumb, 120 bytes, Stack size 20 bytes, stm32f37x_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_config
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[1bc]"></a>GPIO_StructInit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1bd]"></a>GPIO_PinLockConfig</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1be]"></a>GPIO_ReadInputDataBit</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[101]"></a>GPIO_ReadInputData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_boardid
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_input_check
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_dip_input
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_hardware_first
+</UL>
+
+<P><STRONG><a name="[1bf]"></a>GPIO_ReadOutputDataBit</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c0]"></a>GPIO_ReadOutputData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c1]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c2]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[8a]"></a>GPIO_WriteBit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Pulse
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Dir
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Half
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_stepmotor_sub
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;step_test
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_step_motro_en
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Command_loop
+</UL>
+
+<P><STRONG><a name="[1c3]"></a>GPIO_Write</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[c7]"></a>GPIO_PinAFConfig</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f37x_gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_PinAFConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[10f]"></a>NVIC_PriorityGroupConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_misc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_core
+</UL>
+
+<P><STRONG><a name="[c8]"></a>NVIC_Init</STRONG> (Thumb, 94 bytes, Stack size 12 bytes, stm32f37x_misc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = NVIC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[10e]"></a>NVIC_SetVectorTable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_misc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_core
+</UL>
+
+<P><STRONG><a name="[1c4]"></a>NVIC_SystemLPConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c5]"></a>SysTick_CLKSourceConfig</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f37x_misc.o(.text), UNUSED)
+
+<P><STRONG><a name="[f4]"></a>RCC_DeInit</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[f5]"></a>RCC_HSEConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[fe]"></a>RCC_GetFlagStatus</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_WaitForHSEStartUp
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[f6]"></a>RCC_WaitForHSEStartUp</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = RCC_WaitForHSEStartUp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[1c6]"></a>RCC_AdjustHSICalibrationValue</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c7]"></a>RCC_HSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c8]"></a>RCC_LSEConfig</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1c9]"></a>RCC_LSEDriveConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ca]"></a>RCC_LSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[fc]"></a>RCC_PLLConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[fd]"></a>RCC_PLLCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[1cb]"></a>RCC_PREDIV1Config</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1cc]"></a>RCC_ClockSecuritySystemCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1cd]"></a>RCC_MCOConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[ff]"></a>RCC_SYSCLKConfig</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[100]"></a>RCC_GetSYSCLKSource</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[f9]"></a>RCC_HCLKConfig</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[fb]"></a>RCC_PCLK1Config</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[fa]"></a>RCC_PCLK2Config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[a9]"></a>RCC_ADCCLKConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[1ce]"></a>RCC_SDADCCLKConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1cf]"></a>RCC_CECCLKConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d0]"></a>RCC_I2CCLKConfig</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d1]"></a>RCC_USARTCLKConfig</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d2]"></a>RCC_USBCLKConfig</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[de]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 374 bytes, Stack size 20 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Config
+</UL>
+
+<P><STRONG><a name="[1d3]"></a>RCC_RTCCLKConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d4]"></a>RCC_RTCCLKCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d5]"></a>RCC_BackupResetCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[aa]"></a>RCC_AHBPeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_config
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[af]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[c9]"></a>RCC_APB1PeriphClockCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Config
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC12_Config
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_Config
+</UL>
+
+<P><STRONG><a name="[14f]"></a>RCC_AHBPeriphResetCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_DeInit
+</UL>
+
+<P><STRONG><a name="[13a]"></a>RCC_APB2PeriphResetCmd</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
+<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_DeInit
+</UL>
+
+<P><STRONG><a name="[13b]"></a>RCC_APB1PeriphResetCmd</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_DeInit
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_DeInit
+<LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_DeInit
+</UL>
+
+<P><STRONG><a name="[1d6]"></a>RCC_ITConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d7]"></a>RCC_ClearFlag</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d8]"></a>RCC_GetITStatus</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d9]"></a>RCC_ClearITPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1da]"></a>SYSCFG_DeInit</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1db]"></a>SYSCFG_MemoryRemapConfig</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1dc]"></a>SYSCFG_DMAChannelRemapConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1dd]"></a>SYSCFG_I2CFastModePlusConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[b6]"></a>SYSCFG_VBATMonitoringCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_config
+</UL>
+
+<P><STRONG><a name="[1de]"></a>SYSCFG_ITConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1df]"></a>SYSCFG_EXTILineConfig</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e0]"></a>SYSCFG_BreakConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e1]"></a>SYSCFG_GetFlagStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e2]"></a>SYSCFG_ClearFlag</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_syscfg.o(.text), UNUSED)
+
+<P><STRONG><a name="[150]"></a>TIM_DeInit</STRONG> (Thumb, 268 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphResetCmd
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[d3]"></a>TIM_TimeBaseInit</STRONG> (Thumb, 104 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[1e3]"></a>TIM_TimeBaseStructInit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e4]"></a>TIM_PrescalerConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e5]"></a>TIM_CounterModeConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e6]"></a>TIM_SetCounter</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e7]"></a>TIM_SetAutoreload</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[e0]"></a>TIM_GetCounter</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare4
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare3
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare2
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare1
+</UL>
+
+<P><STRONG><a name="[1e8]"></a>TIM_GetPrescaler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1e9]"></a>TIM_UpdateDisableConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ea]"></a>TIM_UpdateRequestConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1eb]"></a>TIM_ARRPreloadConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ec]"></a>TIM_SelectOnePulseMode</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ed]"></a>TIM_SetClockDivision</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc]"></a>TIM_Cmd</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[1ee]"></a>TIM_BDTRConfig</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ef]"></a>TIM_BDTRStructInit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f0]"></a>TIM_CtrlPWMOutputs</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[d4]"></a>TIM_OC1Init</STRONG> (Thumb, 94 bytes, Stack size 12 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = TIM_OC1Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[d6]"></a>TIM_OC2Init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIM_OC2Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[d8]"></a>TIM_OC3Init</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIM_OC3Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[da]"></a>TIM_OC4Init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TIM_OC4Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[1f1]"></a>TIM_OCStructInit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f2]"></a>TIM_SelectOCxM</STRONG> (Thumb, 70 bytes, Stack size 12 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[a6]"></a>TIM_SetCompare1</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare1
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM14_IRQHandler
+</UL>
+
+<P><STRONG><a name="[e3]"></a>TIM_SetCompare2</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare2
+</UL>
+
+<P><STRONG><a name="[e5]"></a>TIM_SetCompare3</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare3
+</UL>
+
+<P><STRONG><a name="[e7]"></a>TIM_SetCompare4</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare4
+</UL>
+
+<P><STRONG><a name="[1f3]"></a>TIM_ForcedOC1Config</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f4]"></a>TIM_ForcedOC2Config</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f5]"></a>TIM_ForcedOC3Config</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f6]"></a>TIM_ForcedOC4Config</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f7]"></a>TIM_CCPreloadControl</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[d5]"></a>TIM_OC1PreloadConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[d7]"></a>TIM_OC2PreloadConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[d9]"></a>TIM_OC3PreloadConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[db]"></a>TIM_OC4PreloadConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMS_Config
+</UL>
+
+<P><STRONG><a name="[1f8]"></a>TIM_OC1FastConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1f9]"></a>TIM_OC2FastConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1fa]"></a>TIM_OC3FastConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1fb]"></a>TIM_OC4FastConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1fc]"></a>TIM_ClearOC1Ref</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1fd]"></a>TIM_ClearOC2Ref</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1fe]"></a>TIM_ClearOC3Ref</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[1ff]"></a>TIM_ClearOC4Ref</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[200]"></a>TIM_OC1PolarityConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[201]"></a>TIM_OC1NPolarityConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[202]"></a>TIM_OC2PolarityConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[203]"></a>TIM_OC3PolarityConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[204]"></a>TIM_OC4PolarityConfig</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[205]"></a>TIM_SelectOCREFClear</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[206]"></a>TIM_CCxCmd</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[207]"></a>TIM_CCxNCmd</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[208]"></a>TIM_SelectCOM</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[152]"></a>TIM_SetIC4Prescaler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+
+<P><STRONG><a name="[157]"></a>TIM_SetIC3Prescaler</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+
+<P><STRONG><a name="[156]"></a>TIM_SetIC2Prescaler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_PWMIConfig
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+
+<P><STRONG><a name="[154]"></a>TIM_SetIC1Prescaler</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_PWMIConfig
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+
+<P><STRONG><a name="[151]"></a>TIM_ICInit</STRONG> (Thumb, 164 bytes, Stack size 24 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC1Prescaler
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC2Prescaler
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC3Prescaler
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC4Prescaler
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI1_Config
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI2_Config
+</UL>
+
+<P><STRONG><a name="[209]"></a>TIM_ICStructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[158]"></a>TIM_PWMIConfig</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC1Prescaler
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetIC2Prescaler
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI1_Config
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI2_Config
+</UL>
+
+<P><STRONG><a name="[a5]"></a>TIM_GetCapture1</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM14_IRQHandler
+</UL>
+
+<P><STRONG><a name="[20a]"></a>TIM_GetCapture2</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[20b]"></a>TIM_GetCapture3</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[20c]"></a>TIM_GetCapture4</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[e1]"></a>TIM_ITConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;arch_StepMotor_Stop
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare4
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare3
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare2
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_SetCompare1
+</UL>
+
+<P><STRONG><a name="[20d]"></a>TIM_GenerateEvent</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[20e]"></a>TIM_GetFlagStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[20f]"></a>TIM_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[a1]"></a>TIM_GetITStatus</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM17_IRQHandler
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM16_IRQHandler
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM14_IRQHandler
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM13_IRQHandler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM19_IRQHandler
+<LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM15_IRQHandler
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM12_IRQHandler
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM2_IRQHandler
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[a2]"></a>TIM_ClearITPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM17_IRQHandler
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM16_IRQHandler
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM14_IRQHandler
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM13_IRQHandler
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM19_IRQHandler
+<LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM15_IRQHandler
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM12_IRQHandler
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM2_IRQHandler
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[210]"></a>TIM_DMAConfig</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[211]"></a>TIM_DMACmd</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[212]"></a>TIM_SelectCCDMA</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[213]"></a>TIM_InternalClockConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[15a]"></a>TIM_SelectInputTrigger</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TIxExternalClockConfig
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITRxExternalClockConfig
+</UL>
+
+<P><STRONG><a name="[159]"></a>TIM_ITRxExternalClockConfig</STRONG> (Thumb, 18 bytes, Stack size 4 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SelectInputTrigger
+</UL>
+
+<P><STRONG><a name="[15b]"></a>TIM_TIxExternalClockConfig</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SelectInputTrigger
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI1_Config
+<LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TI2_Config
+</UL>
+
+<P><STRONG><a name="[15d]"></a>TIM_ETRConfig</STRONG> (Thumb, 24 bytes, Stack size 12 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[15e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETRClockMode2Config
+<LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETRClockMode1Config
+</UL>
+
+<P><STRONG><a name="[15c]"></a>TIM_ETRClockMode1Config</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETRConfig
+</UL>
+
+<P><STRONG><a name="[15e]"></a>TIM_ETRClockMode2Config</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETRConfig
+</UL>
+
+<P><STRONG><a name="[214]"></a>TIM_SelectOutputTrigger</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[215]"></a>TIM_SelectSlaveMode</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[216]"></a>TIM_SelectMasterSlaveMode</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[217]"></a>TIM_EncoderInterfaceConfig</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[218]"></a>TIM_SelectHallSensor</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[219]"></a>TIM_RemapConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f37x_tim.o(.text), UNUSED)
+
+<P><STRONG><a name="[4e]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[15f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[21a]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[21b]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[21c]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[21d]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[21e]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[21f]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[a7]"></a>SetSysClock</STRONG> (Thumb, 140 bytes, Stack size 12 bytes, system_stm32f37x.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SetSysClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[d2]"></a>TIMS_Config</STRONG> (Thumb, 488 bytes, Stack size 72 bytes, arch_time.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = TIMS_Config &rArr; TIM_OC4Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TimeBaseInit
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC4PreloadConfig
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC4Init
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC3PreloadConfig
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC3Init
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC2PreloadConfig
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC2Init
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC1PreloadConfig
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_OC1Init
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_Cmd
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Init
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Config
+</UL>
+
+<P><STRONG><a name="[11a]"></a>stepspeed_Q2R</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stepspeed_Q2R_EX
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_timer
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec_justrun
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_exec
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Position
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Reset
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Exec_DCT_Motor_Get_pos
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Isr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_exec
+</UL>
+
+<P><STRONG><a name="[11f]"></a>stepspeed_R2Q</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, step.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Speed
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Set_Reset_Speed
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Triangle_Isr
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StepMotor_Get_Position
+</UL>
+
+<P><STRONG><a name="[132]"></a>EE_FindValidPage</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, eeprom.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_ReadVariable
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_VerifyPageFullWriteVariable
+</UL>
+
+<P><STRONG><a name="[131]"></a>EE_VerifyPageFullWriteVariable</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_FindValidPage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_WriteVariable
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_PageTransfer
+</UL>
+
+<P><STRONG><a name="[136]"></a>EE_Format</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = EE_Format &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_Init
+</UL>
+
+<P><STRONG><a name="[138]"></a>EE_PageTransfer</STRONG> (Thumb, 134 bytes, Stack size 32 bytes, eeprom.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = EE_PageTransfer &rArr; EE_VerifyPageFullWriteVariable &rArr; FLASH_ProgramHalfWord &rArr; FLASH_WaitForLastOperation
+</UL>
+<BR>[Calls]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_ReadVariable
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_VerifyPageFullWriteVariable
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_FindValidPage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EE_WriteVariable
+</UL>
+
+<P><STRONG><a name="[13d]"></a>CheckITStatus</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f37x_can.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CAN_GetITStatus
+</UL>
+
+<P><STRONG><a name="[155]"></a>TI2_Config</STRONG> (Thumb, 54 bytes, Stack size 20 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TIxExternalClockConfig
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_PWMIConfig
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+
+<P><STRONG><a name="[153]"></a>TI1_Config</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, stm32f37x_tim.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TIxExternalClockConfig
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_PWMIConfig
+<LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ICInit
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

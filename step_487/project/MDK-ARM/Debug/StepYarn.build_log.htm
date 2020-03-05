@@ -1,0 +1,192 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 HYK, 1, LIC=SDA0P-MWX7C-561Q2-9GIBH-1NV06-REAQW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\project\work project\step_motor_test\step_487\project\MDK-ARM\Project.uvprojx
+Project File Date:  03/03/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'StepYarn'
+compiling main.c...
+..\..\inc\step.h(414): warning:  #1295-D: Deprecated declaration StepMotor_Sinker_Get_Busy - give arg types
+  int StepMotor_Sinker_Get_Busy();
+..\..\src\main.c(95): warning:  #1295-D: Deprecated declaration StepMotor_timer - give arg types
+    extern void StepMotor_timer();
+..\..\src\main.c(97): warning:  #1295-D: Deprecated declaration Alert_Poll - give arg types
+    extern void Alert_Poll();
+..\..\src\main.c(178): warning:  #223-D: function "StepMotor_exec_justrun" declared implicitly
+  	StepMotor_exec_justrun(stepno,pos);    
+..\..\src\main.c(197): warning:  #223-D: function "Get_board_id" declared implicitly
+  		 if((tmp>>4)==Get_board_id())
+..\..\src\main.c(303): warning:  #223-D: function "Is_Yarn_Board" declared implicitly
+  			         StepMotor_exec(t_id,moto_pos,Is_Yarn_Board() ? 1 : 0);    
+..\..\src\main.c(310): warning:  #940-D: missing return statement at end of non-void function "Exec_DCT_isr" 
+  }
+..\..\src\main.c(317): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                 	arch_SendMassage(1,&tx_data[0],1);	   				
+..\..\src\main.c(324): warning:  #223-D: function "Get_board_id" declared implicitly
+   						if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(330): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                 					arch_SendMassage(1,&tx_data[0],2);
+..\..\src\main.c(338): warning:  #223-D: function "Get_board_id" declared implicitly
+  	if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(401): warning:  #223-D: function "Get_board_id" declared implicitly
+  	if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(409): warning:  #223-D: function "arch_SendMassage" declared implicitly
+  		arch_SendMassage(1,&tx_data[0],2); 					
+..\..\src\main.c(416): warning:  #223-D: function "Get_board_id" declared implicitly
+  	if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(430): warning:  #223-D: function "Get_board_id" declared implicitly
+  	if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(456): warning:  #223-D: function "arch_get_board_bootver" declared implicitly
+  	unsigned int bootver=arch_get_board_bootver();
+..\..\src\main.c(458): warning:  #223-D: function "Get_board_id" declared implicitly
+  	if((arg2 & 0x00ff)==(Get_board_id()+0x10))
+..\..\src\main.c(461): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],1); 
+..\..\src\main.c(483): warning:  #223-D: function "Step_is_CX_5N_board" declared implicitly
+  		if(Step_is_CX_5N_board())
+..\..\src\main.c(486): warning:  #223-D: function "arch_get_step_sign_" declared implicitly
+  		tx_data[1]=arch_get_step_sign_();
+..\..\src\main.c(487): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                 arch_SendMassage(1,&tx_data[0],2); 
+..\..\src\main.c(490): warning:  #223-D: function "arch_get_step_sign_" declared implicitly
+  		tx_data[0]=arch_get_step_sign_();
+..\..\src\main.c(491): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                 arch_SendMassage(1,&tx_data[0],1); 
+..\..\src\main.c(507): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],2); 
+..\..\src\main.c(525): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],4); 
+..\..\src\main.c(566): warning:  #111-D: statement is unreachable
+  		break;
+..\..\src\main.c(631): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],4); 
+..\..\src\main.c(638): warning:  #223-D: function "arch_get_board_bootver" declared implicitly
+  	unsigned int bootver=arch_get_board_bootver();
+..\..\src\main.c(640): warning:  #223-D: function "Get_board_id" declared implicitly
+  		tx_data[0]=VER  | ((bootver?0x02:0x01)<<8) | (Get_board_id()<<12) ;
+..\..\src\main.c(641): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],1); 
+..\..\src\main.c(649): warning:  #223-D: function "Is_Yarn_Board" declared implicitly
+  		if (Is_Yarn_Board())
+..\..\src\main.c(654): warning:  #223-D: function "arch_SendMassage" declared implicitly
+                arch_SendMassage(1,&tx_data[0],1); 
+..\..\src\main.c(677): warning:  #223-D: function "arch_StepMotor_Enable" declared implicitly
+  				arch_StepMotor_Enable();
+..\..\src\main.c(681): warning:  #223-D: function "arch_StepMotor_Disable" declared implicitly
+  				arch_StepMotor_Disable();
+..\..\src\main.c(689): warning:  #223-D: function "Is_Yarn_Board" declared implicitly
+  						if (Is_Yarn_Board()) break;
+..\..\src\main.c(691): warning:  #223-D: function "Exec_Triangle_step" declared implicitly
+  						Exec_Triangle_step(cmd->arg1, cmd->arg2,cmd->arg3 );
+..\..\src\main.c(700): warning:  #223-D: function "StepMotor_Triangle_Get_Position" declared implicitly
+  						Massage_Send(StepMotor_Triangle_Get_Position(cmd->arg1));
+..\..\src\main.c(704): warning:  #223-D: function "StepMotor_Triangle_Get_Sign" declared implicitly
+  						Massage_Send(StepMotor_Triangle_Get_Sign(cmd->arg1));
+..\..\src\main.c(713): warning:  #223-D: function "StepMotor_Triangle_Set_Position" declared implicitly
+  						(StepMotor_Triangle_Set_Position(cmd->arg1,cmd->arg2));
+..\..\src\main.c(717): warning:  #223-D: function "StepMotor_Triangle_Set_Sign" declared implicitly
+  						(StepMotor_Triangle_Set_Sign(cmd->arg1,cmd->arg2 & 0x3));
+..\..\src\main.c(725): warning:  #223-D: function "Get_doard_type_ex" declared implicitly
+  					if (!Get_doard_type_ex())  break;
+..\..\src\main.c(854): warning:  #223-D: function "Set_LostSteps_alarm" declared implicitly
+  							Set_LostSteps_alarm(cmd->arg2);
+..\..\src\main.c(860): warning:  #223-D: function "Set_Step_done_report" declared implicitly
+  							Set_Step_done_report(cmd->arg2);
+..\..\src\main.c(872): warning:  #177-D: variable "reset_speed"  was declared but never referenced
+  							int reset_speed = cmd->arg3;
+..\..\src\main.c(884): warning:  #223-D: function "StepMotor_exec_with_check_mask" declared implicitly
+  							StepMotor_exec_with_check_mask(cmd->arg2,cmd->arg3,0,cmd->arg4);
+..\..\src\main.c(912): warning:  #223-D: function "StepMotor_Set_Speed_HZ_ex" declared implicitly
+  						StepMotor_Set_Speed_HZ_ex(cmd->arg2&0xFF,cmd->arg3,(cmd->arg2>>8)&0xff);
+..\..\src\main.c(924): warning:  #223-D: function "StepMotor_set_Remap" declared implicitly
+  						StepMotor_set_Remap(cmd->arg2 & 0xff,(cmd->arg2>>8)&0xff);
+..\..\src\main.c(930): warning:  #223-D: function "StepMotor_set_HZ_ex_start_a" declared implicitly
+  						StepMotor_set_HZ_ex_start_a(cmd->arg2,cmd->arg3);
+..\..\src\main.c(935): warning:  #223-D: function "StepMotor_set_HZ_ex_max" declared implicitly
+  						StepMotor_set_HZ_ex_max(cmd->arg2,cmd->arg3);
+..\..\src\main.c(942): warning:  #223-D: function "arch_step_motro_en" declared implicitly
+  					arch_step_motro_en(0x1);
+..\..\src\main.c(943): warning:  #223-D: function "StepMotor_test_speed" declared implicitly
+  					StepMotor_test_speed(1,2000);
+..\..\src\main.c(946): warning:  #188-D: enumerated type mixed with another type
+  					GPIO_WriteBit(GPIOB,GPIO_Pin_1,cmd->arg3);
+..\..\src\main.c(947): warning:  #188-D: enumerated type mixed with another type
+  					GPIO_WriteBit(GPIOB,GPIO_Pin_0,1);
+..\..\src\main.c(982): warning:  #223-D: function "Upgrade_Start" declared implicitly
+  	       Upgrade_Start();
+..\..\src\main.c(1034): warning:  #223-D: function "Exec_DCT_Motor_Get_runing_sts" declared implicitly
+  				Exec_DCT_Motor_Get_runing_sts();
+..\..\src\main.c(1052): warning:  #223-D: function "Alert_Clear" declared implicitly
+  		Alert_Clear();
+..\..\src\main.c(1056): warning:  #127-D: expected a statement
+  	}
+..\..\src\main.c(663): warning:  #550-D: variable "tmp"  was set but never used
+  	unsigned int tmp;
+..\..\src\main.c(664): warning:  #177-D: variable "t_id"  was declared but never referenced
+  	unsigned int t_id;
+..\..\src\main.c(666): warning:  #177-D: variable "tmp_stus"  was declared but never referenced
+  	unsigned int tmp_stus;	
+..\..\src\main.c(1076): warning:  #223-D: function "alert_init" declared implicitly
+  	alert_init();
+..\..\src\main.c(1074): warning:  #177-D: variable "i"  was declared but never referenced
+  	unsigned int i;
+..\..\src\main.c(1098): warning:  #14-D: extra text after expected end of preprocessing directive
+  	#endif;
+..\..\src\main.c(1127): warning:  #223-D: function "arch_adc_test" declared implicitly
+  	arch_adc_test();
+..\..\src\main.c(1163): warning:  #223-D: function "Init_core" declared implicitly
+  	Init_core();
+..\..\src\main.c(1164): warning:  #223-D: function "Init_hardware_first" declared implicitly
+  	Init_hardware_first();
+..\..\src\main.c(1165): warning:  #223-D: function "Init_hardware" declared implicitly
+  	Init_hardware();
+..\..\src\main.c(1166): warning:  #223-D: function "Init_parameter" declared implicitly
+  	Init_parameter();
+..\..\src\main.c(1167): warning:  #223-D: function "Init_output" declared implicitly
+  	Init_output();
+..\..\src\main.c(1223): warning:  #223-D: function "arch_run_led_toggle" declared implicitly
+  		arch_run_led_toggle();
+..\..\src\main.c: 70 warnings, 0 errors
+linking...
+Program Size: Code=26020 RO-data=488 RW-data=616 ZI-data=4304  
+FromELF: creating hex file...
+".\Debug\StepYarn.axf" - 0 Error(s), 70 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.2.1.0.pack
+                Keil.STM32F3xx_DFP.2.1.0
+                STMicroelectronics STM32F3 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_StepYarn
+  C:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
