@@ -1,0 +1,11 @@
+.\obj\hal_e534.o: ..\..\src\core\hal\hal_E534.c
+.\obj\hal_e534.o: ..\..\src\core\hal\hal_E534.h
+.\obj\hal_e534.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\hal_e534.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\hal_e534.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\hal_e534.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\hal_e534.o: ..\..\src\core\hal\E534_cmd.h
+.\obj\hal_e534.o: ..\..\src\core\hal\hal_can.h
+.\obj\hal_e534.o: ..\..\src\core\hal\hal_ebrd.h
+.\obj\hal_e534.o: ..\..\src\core\hal\hal_cmd.h
+.\obj\hal_e534.o: ..\..\src\core\src\canfifo.h

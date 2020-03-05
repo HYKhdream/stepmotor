@@ -1,0 +1,10 @@
+.\obj\gui_menu.o: ..\..\src\core\gui\gui_menu.c
+.\obj\gui_menu.o: ..\..\src\core\gui\gui_menu.h
+.\obj\gui_menu.o: ..\..\src\core\hal\hal_ebrd.h
+.\obj\gui_menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\gui_menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\gui_menu.o: ..\..\src\core\hal\hal_cmd.h
+.\obj\gui_menu.o: ..\..\src\core\gui\guilib.h
+.\obj\gui_menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\gui_menu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\gui_menu.o: ..\..\src\core\src\canfifo.h

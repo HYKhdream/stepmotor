@@ -1,0 +1,9 @@
+.\obj\qwl_shell.o: ..\..\src\core\qwl\qwl_shell.c
+.\obj\qwl_shell.o: ..\..\src\core\qwl\qwl_shell.h
+.\obj\qwl_shell.o: ..\..\src\core\qwl\qwl_types.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\qwl_shell.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h

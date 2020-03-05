@@ -1,0 +1,312 @@
+Dependencies for Project 'CANBox', Target 'CANBox': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\..\src\arch\arch_E451\lib\keil\Startup.s)(0x5DE5C664)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "TM4C1230D5PM SETA 1"--list .\obj\startup.lst --xref -o .\obj\startup.o --depend .\obj\startup.d)
+F (..\..\src\arch\arch_E451\lib\src\gpio.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_gpio.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/gpio.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/pin_map.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\sysctl.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\sysctl.o --omf_browse .\obj\sysctl.crf --depend .\obj\sysctl.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_nvic.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/cpu.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\interrupt.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\interrupt.o --omf_browse .\obj\interrupt.crf --depend .\obj\interrupt.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_nvic.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/cpu.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\cpu.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\cpu.o --omf_browse .\obj\cpu.crf --depend .\obj\cpu.d)
+I (..\..\src\arch\arch_E451\lib\inc/cpu.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\timer.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_timer.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/timer.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\ssi.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\ssi.o --omf_browse .\obj\ssi.crf --depend .\obj\ssi.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ssi.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/ssi.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\can.c)(0x5D54A861)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\can.o --omf_browse .\obj\can.crf --depend .\obj\can.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_can.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_nvic.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/can.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\eeprom.c)(0x57144FC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\eeprom.o --omf_browse .\obj\eeprom.crf --depend .\obj\eeprom.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_eeprom.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_flash.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/flash.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/eeprom.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\lib\src\uart.c)(0x5A78077E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_uart.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/debug.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/uart.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+F (..\..\src\arch\arch_E451\src\arch_board.c)(0x5DD3497C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\arch_board.o --omf_browse .\obj\arch_board.crf --depend .\obj\arch_board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\lib\inc/hw_gpio.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_can.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/gpio.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/pin_map.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/timer.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/ssi.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/can.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/eeprom.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/uart.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\inc\arch_ra8875.h)(0x5DD24BD0)
+I (..\..\src\arch\arch_E451\inc\arch_board.h)(0x5DD3497C)
+I (..\..\src\arch\arch_E451\inc\arch_uart.h)(0x5DCCA6CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\arch\arch_E451\src\arch_irq.c)(0x5DD37852)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\arch_irq.o --omf_browse .\obj\arch_irq.crf --depend .\obj\arch_irq.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_can.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/timer.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/can.h)(0x57144FC6)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\arch\arch_E451\src\arch_ra8875.c)(0x5DD246C2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\arch_ra8875.o --omf_browse .\obj\arch_ra8875.crf --depend .\obj\arch_ra8875.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\inc\arch_ra8875.h)(0x5DD24BD0)
+F (..\..\src\arch\arch_E451\src\arch_touch.c)(0x57145179)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\arch_touch.o --omf_browse .\obj\arch_touch.crf --depend .\obj\arch_touch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\..\src\arch\arch_E451\src\arch_uart.c)(0x5DCCA636)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\arch_uart.o --omf_browse .\obj\arch_uart.crf --depend .\obj\arch_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\lib\inc/hw_ints.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_memmap.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_types.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/hw_uart.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/interrupt.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/sysctl.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/gpio.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/pin_map.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\lib\inc/uart.h)(0x57144FC6)
+I (..\..\src\arch\arch_E451\inc\arch_uart.h)(0x5DCCA6CE)
+F (..\..\src\core\src\main.c)(0x5E5F531A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\..\src\core\gui\gui_ebrd.h)(0x59759EF2)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\src\CanMonitor.c)(0x5E5F66AA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\canmonitor.o --omf_browse .\obj\canmonitor.crf --depend .\obj\canmonitor.d)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+I (..\..\src\core\gui\gui_ebrd.h)(0x59759EF2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+I (..\..\src\arch\arch_E451\inc\arch_board.h)(0x5DD3497C)
+I (..\..\src\arch\arch_E451\inc\arch_uart.h)(0x5DCCA6CE)
+I (..\..\src\arch\arch_E451\inc\arch_ra8875.h)(0x5DD24BD0)
+F (..\..\src\core\src\CanFifo.c)(0x5DD37B5A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\canfifo.o --omf_browse .\obj\canfifo.crf --depend .\obj\canfifo.d)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\..\src\core\src\KeyBoard.c)(0x5DD24BFF)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\keyboard.o --omf_browse .\obj\keyboard.crf --depend .\obj\keyboard.d)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\inc\arch_ra8875.h)(0x5DD24BD0)
+F (..\..\src\core\gui\guilib.c)(0x5E03AB47)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\guilib.o --omf_browse .\obj\guilib.crf --depend .\obj\guilib.d)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\arch\arch_E451\inc\arch_ra8875.h)(0x5DD24BD0)
+I (..\..\src\arch\arch_E451\inc\arch_board.h)(0x5DD3497C)
+F (..\..\src\core\gui\gui_xzq.c)(0x5DC22D02)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_xzq.o --omf_browse .\obj\gui_xzq.crf --depend .\obj\gui_xzq.d)
+I (..\..\src\core\gui\gui_xzq.h)(0x57B59C82)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+F (..\..\src\core\gui\gui_menu.c)(0x5D8ACE32)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_menu.o --omf_browse .\obj\gui_menu.crf --depend .\obj\gui_menu.d)
+I (..\..\src\core\gui\gui_menu.h)(0x57B59C6D)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\gui\gui_ebrd.c)(0x5CB7BA12)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_ebrd.o --omf_browse .\obj\gui_ebrd.crf --depend .\obj\gui_ebrd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\gui\gui_ebrd.h)(0x59759EF2)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\gui\gui_e438.c)(0x58C61137)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_e438.o --omf_browse .\obj\gui_e438.crf --depend .\obj\gui_e438.d)
+I (..\..\src\core\gui\gui_e438.h)(0x5844EA51)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\gui\gui_e481.c)(0x5AF26880)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_e481.o --omf_browse .\obj\gui_e481.crf --depend .\obj\gui_e481.d)
+I (..\..\src\core\gui\gui_e481.h)(0x586F059A)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\gui\gui_input.c)(0x5CB6FAF6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\gui_input.o --omf_browse .\obj\gui_input.crf --depend .\obj\gui_input.d)
+I (..\..\src\core\gui\gui_input.h)(0x5AF2672D)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\hal\hal_E534.c)(0x597ED717)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_e534.o --omf_browse .\obj\hal_e534.crf --depend .\obj\hal_e534.d)
+I (..\..\src\core\hal\hal_E534.h)(0x57B65664)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\E534_cmd.h)(0x57B2812E)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\hal\hal_can.c)(0x5D539C4C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_can.o --omf_browse .\obj\hal_can.crf --depend .\obj\hal_can.d)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (..\..\src\core\hal\hal_E481.c)(0x5B2C6526)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_e481.o --omf_browse .\obj\hal_e481.crf --depend .\obj\hal_e481.d)
+I (..\..\src\core\hal\hal_E481.h)(0x57B65676)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\hal\hal_ebrd.c)(0x5CB6F121)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_ebrd.o --omf_browse .\obj\hal_ebrd.crf --depend .\obj\hal_ebrd.d)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+F (..\..\src\core\hal\hal_E438.c)(0x597ED6FB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_e438.o --omf_browse .\obj\hal_e438.crf --depend .\obj\hal_e438.d)
+I (..\..\src\core\hal\hal_E438.h)(0x57B65676)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\hal\hal_E644.c)(0x5B2B59FE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_e644.o --omf_browse .\obj\hal_e644.crf --depend .\obj\hal_e644.d)
+I (..\..\src\core\hal\hal_E644.h)(0x5B245F77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+F (..\..\src\core\hal\hal_E697.c)(0x5D09CD9B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\hal_e697.o --omf_browse .\obj\hal_e697.crf --depend .\obj\hal_e697.d)
+I (..\..\src\core\hal\hal_E697.h)(0x5B245F77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\core\hal\hal_can.h)(0x57B598EE)
+I (..\..\src\core\hal\hal_ebrd.h)(0x5CB6F121)
+I (..\..\src\core\hal\hal_cmd.h)(0x5CB719FB)
+I (..\..\src\core\src\canfifo.h)(0x5DD37E98)
+I (..\..\src\core\gui\guilib.h)(0x5E5F521B)
+F (..\..\src\core\qwl\qwl_shell.c)(0x5DCCA874)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\src\arch\arch_E451\lib -I ..\..\src\core\hal -I ..\..\src\core\gui -I ..\..\src\core\src -I ..\..\src\core\qwl -I ..\..\src\arch\arch_E451\inc-I.\RTE\_CANBox-IC:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DTM4C1230D5PM-o .\obj\qwl_shell.o --omf_browse .\obj\qwl_shell.crf --depend .\obj\qwl_shell.d)
+I (..\..\src\core\qwl\qwl_shell.h)(0x5A780591)
+I (..\..\src\core\qwl\qwl_types.h)(0x5930CCCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AD212)

@@ -1,0 +1,12 @@
+.\obj\canmonitor.o: ..\..\src\core\src\CanMonitor.c
+.\obj\canmonitor.o: ..\..\src\core\gui\guilib.h
+.\obj\canmonitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\canmonitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\canmonitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\canmonitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\canmonitor.o: ..\..\src\core\src\canfifo.h
+.\obj\canmonitor.o: ..\..\src\core\gui\gui_ebrd.h
+.\obj\canmonitor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\obj\canmonitor.o: ..\..\src\arch\arch_E451\inc\arch_board.h
+.\obj\canmonitor.o: ..\..\src\arch\arch_E451\inc\arch_uart.h
+.\obj\canmonitor.o: ..\..\src\arch\arch_E451\inc\arch_ra8875.h

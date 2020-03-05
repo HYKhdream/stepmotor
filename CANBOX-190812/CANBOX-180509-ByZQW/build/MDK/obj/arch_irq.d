@@ -1,0 +1,15 @@
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\src\arch_irq.c
+.\obj\arch_irq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\arch_irq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\arch_irq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\arch_irq.o: ..\..\src\core\gui\guilib.h
+.\obj\arch_irq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/hw_ints.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/hw_memmap.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/hw_types.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/hw_can.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/sysctl.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/timer.h
+.\obj\arch_irq.o: ..\..\src\arch\arch_E451\lib\inc/can.h
+.\obj\arch_irq.o: ..\..\src\core\src\canfifo.h

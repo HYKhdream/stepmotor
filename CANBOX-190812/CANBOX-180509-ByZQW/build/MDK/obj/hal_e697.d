@@ -1,0 +1,11 @@
+.\obj\hal_e697.o: ..\..\src\core\hal\hal_E697.c
+.\obj\hal_e697.o: ..\..\src\core\hal\hal_E697.h
+.\obj\hal_e697.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\hal_e697.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\hal_e697.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\hal_e697.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\hal_e697.o: ..\..\src\core\hal\hal_can.h
+.\obj\hal_e697.o: ..\..\src\core\hal\hal_ebrd.h
+.\obj\hal_e697.o: ..\..\src\core\hal\hal_cmd.h
+.\obj\hal_e697.o: ..\..\src\core\src\canfifo.h
+.\obj\hal_e697.o: ..\..\src\core\gui\guilib.h

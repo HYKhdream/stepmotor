@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 HYK, 1, LIC=SDA0P-MWX7C-561Q2-9GIBH-1NV06-REAQW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+D:\project\work project\step_motor_test\CANBOX-190812\CANBOX-180509-ByZQW\build\MDK\CANBox.uvprojx
+Project File Date:  11/14/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'CANBox'
+compiling CanMonitor.c...
+..\..\src\core\src\canfifo.h(42): warning:  #1295-D: Deprecated declaration CanRecv_Clear - give arg types
+  int CanRecv_Clear();
+..\..\src\core\src\canfifo.h(43): warning:  #1295-D: Deprecated declaration CanRecv_TopIdx - give arg types
+  int CanRecv_TopIdx();
+..\..\src\core\src\canfifo.h(44): warning:  #1295-D: Deprecated declaration CanRecv_Count - give arg types
+  int CanRecv_Count();
+..\..\src\core\src\canfifo.h(45): warning:  #1295-D: Deprecated declaration CanRecv_Total - give arg types
+  unsigned long CanRecv_Total();
+..\..\src\core\src\canfifo.h(51): warning:  #1295-D: Deprecated declaration can_buf_init - give arg types
+  void can_buf_init();
+..\..\src\core\src\canfifo.h(52): warning:  #1295-D: Deprecated declaration can_fifo_para_load - give arg types
+  void can_fifo_para_load();
+..\..\src\core\src\canfifo.h(55): warning:  #1295-D: Deprecated declaration CanRecv_status - give arg types
+  int CanRecv_status();
+..\..\src\arch\arch_E451\inc\arch_board.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\src\arch\arch_E451\inc\arch_uart.h(5): warning:  #1295-D: Deprecated declaration UART0_Handler - give arg types
+  void UART0_Handler();
+..\..\src\arch\arch_E451\inc\arch_uart.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\src\arch\arch_E451\inc\arch_ra8875.h(66): warning:  #1295-D: Deprecated declaration RA8875_Init - give arg types
+  void RA8875_Init();//³õÊ¼»¯RA8875Çý¶¯Ð¾Æ¬
+..\..\src\arch\arch_E451\inc\arch_ra8875.h(67): warning:  #1295-D: Deprecated declaration RA8875_Test - give arg types
+  void RA8875_Test();
+..\..\src\core\src\CanMonitor.c(430): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(696): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(705): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(711): warning:  #186-D: pointless comparison of unsigned integer with zero
+  				if(step_fangxiang<0)
+..\..\src\core\src\CanMonitor.c(715): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(724): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(733): warning:  #111-D: statement is unreachable
+  			}break;
+..\..\src\core\src\CanMonitor.c(447): warning:  #177-D: variable "Msg_Top"  was declared but never referenced
+  	int Msg_Top = -1;
+..\..\src\core\src\CanMonitor.c(448): warning:  #177-D: variable "Msg_Cnt"  was declared but never referenced
+  	int Msg_Cnt = -1;
+..\..\src\core\src\CanMonitor.c(449): warning:  #177-D: variable "msgID"  was declared but never referenced
+  	unsigned long msgID=0x05;
+..\..\src\core\src\CanMonitor.c(450): warning:  #177-D: variable "dta"  was declared but never referenced
+  	unsigned char dta[8];
+..\..\src\core\src\CanMonitor.c(451): warning:  #550-D: variable "CWJ_ret"  was set but never used
+  	int CWJ_ret,ret,evt, sts,i,full_step=0 ,dat=0;
+..\..\src\core\src\CanMonitor.c(452): warning:  #177-D: variable "str"  was declared but never referenced
+  	char str[1]={'%'},str1[]={"start"},str2[]={"clear"};
+..\..\src\core\src\CanMonitor.c: 25 warnings, 0 errors
+linking...
+Program Size: Code=33284 RO-data=1484 RW-data=1644 ZI-data=20788  
+FromELF: creating hex file...
+".\obj\CANBox.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CANBox
+  C:\Users\yfadmin02\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

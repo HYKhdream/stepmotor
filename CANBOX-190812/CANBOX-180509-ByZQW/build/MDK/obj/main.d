@@ -1,0 +1,10 @@
+.\obj\main.o: ..\..\src\core\src\main.c
+.\obj\main.o: ..\..\src\core\gui\gui_ebrd.h
+.\obj\main.o: ..\..\src\core\gui\guilib.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: ..\..\src\core\hal\hal_ebrd.h
+.\obj\main.o: ..\..\src\core\hal\hal_cmd.h
+.\obj\main.o: ..\..\src\core\src\canfifo.h

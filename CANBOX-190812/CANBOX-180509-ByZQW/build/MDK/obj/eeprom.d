@@ -1,0 +1,11 @@
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\src\eeprom.c
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/hw_eeprom.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/hw_flash.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/hw_ints.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/hw_types.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/debug.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/flash.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/interrupt.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/sysctl.h
+.\obj\eeprom.o: ..\..\src\arch\arch_E451\lib\inc/eeprom.h

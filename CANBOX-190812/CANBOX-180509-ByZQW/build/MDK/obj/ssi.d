@@ -1,0 +1,9 @@
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\src\ssi.c
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/hw_ints.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/hw_memmap.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/hw_ssi.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/hw_types.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/debug.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/interrupt.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/ssi.h
+.\obj\ssi.o: ..\..\src\arch\arch_E451\lib\inc/sysctl.h

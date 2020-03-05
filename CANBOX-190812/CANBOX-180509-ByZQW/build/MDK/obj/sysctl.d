@@ -1,0 +1,9 @@
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\src\sysctl.c
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/hw_ints.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/hw_nvic.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/hw_sysctl.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/hw_types.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/cpu.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/debug.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/interrupt.h
+.\obj\sysctl.o: ..\..\src\arch\arch_E451\lib\inc/sysctl.h
